@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>currency_usd</name>
+        <label>Currency USD</label>
+        <description>United States Dollar.</description>
+        <namespace>\adapt\currency\usd</namespace>
+        <copyright>2016 Matt Bruton</copyright>
+        <license>MIT</license>
+        <website>http://www.adaptframework.com/documentaion/extentions/currency_usd</website>
+        <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>2.0</version>
+            </bundle>
+            <bundle>
+                <name>currency</name>
+                <version>1.0</version>
+            </bundle>
+        </depends_on>
+        <settings>
+            <category name="Default currency">
+                <setting>
+                    <name>Default currency</name>
+                    <label>Default currency</label>
+                    <default_value>usd</default_value>
+                </setting>
+            </category>
+        </settings>
+        <schema>
+            <add>
+                <table name="currency">
+                    <record>
+                        <name>usd</name>
+                        <label>United States Dollar</label>
+                        <iso_code>USD</iso_code>
+                        <decimal_places>2</decimal_places>
+                        <symbol_whole>$</symbol_whole>
+                        <symbol_partial>¢</symbol_partial>
+                        <symbol_whole_html>$</symbol_whole_html>
+                        <symbol_partial_html>&amp;cent;</symbol_partial_html>
+                    </record>
+                </table>
+            </add>
+        </schema>
+    </bundle>
+</adapt_framework>
