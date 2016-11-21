@@ -35,6 +35,8 @@
                         <label>United States Dollar</label>
                         <iso_code>USD</iso_code>
                         <decimal_places>2</decimal_places>
+                        <decimal_separator>.</decimal_separator>
+                        <thousands_separator>,</thousands_separator>
                         <symbol_whole>$</symbol_whole>
                         <symbol_partial>¢</symbol_partial>
                         <symbol_whole_html>$</symbol_whole_html>
