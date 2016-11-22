@@ -3,6 +3,8 @@
     <bundle>
         <name>currency_usd</name>
         <label>Currency USD</label>
+        <type>currency</type>
+        <version>1.0.0</version>
         <description>United States Dollar.</description>
         <namespace>\adapt\currency\usd</namespace>
         <copyright>2016 Matt Bruton</copyright>
