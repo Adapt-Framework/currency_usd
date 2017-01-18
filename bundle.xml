@@ -25,7 +25,7 @@
         <settings>
             <category name="Default currency">
                 <setting>
-                    <name>Default currency</name>
+                    <name>default.currency</name>
                     <label>Default currency</label>
                     <default_value>usd</default_value>
                 </setting>
