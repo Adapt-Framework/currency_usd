@@ -4,7 +4,7 @@
         <name>currency_usd</name>
         <label>Currency USD</label>
         <type>currency</type>
-        <version>1.0.0</version>
+        <version>0.9.0</version>
         <description>United States Dollar.</description>
         <namespace>\adapt\currency\usd</namespace>
         <version_status>release</version_status>
@@ -19,7 +19,7 @@
             </bundle>
             <bundle>
                 <name>currency</name>
-                <version>1.0</version>
+                <version>0.9</version>
             </bundle>
         </depends_on>
         <settings>
